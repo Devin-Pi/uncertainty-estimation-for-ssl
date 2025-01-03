@@ -1,0 +1,20 @@
+DATA_SIMU:
+    TRAIN: False
+    TEST: False
+    DEV: False
+    TRAIN_NUM: 10000
+    TEST_NUM: 5000
+    DEV_NUM: 998
+    SOU_PATH:
+        TRAIN: ./data/LibriSpeech/train-clean-100
+        TEST: ./data/LibriSpeech/test-clean
+        DEV: ./data/LibriSpeech/dev-clean
+    NOISE_PATH: ./data/NoiSig/Noise92
+    EXP_PATH:
+        TRAIN: ./data/train
+        TEST: ./data/test
+        DEV: ./data/dev
+    LOCATA: ./data/LOCATA
+BASIC_SETTING   :
+    NOS: [1]
+    S_STATE: static #MOBILE
