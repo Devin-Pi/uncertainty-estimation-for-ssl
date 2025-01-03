@@ -1,6 +1,6 @@
 # Uncertainty Estimation for Sound Source Localization with Deep Learning
 This repository contains the python implementation for the paper  "Uncertainty Estimation for Sound Source Localization with Deep Learning".
-
+![arcchitecture](/asset/archi.png)
 
 ## Dataset
 - Source signals: [LibriSpeech](https://www.openslr.org/12/)
@@ -9,7 +9,7 @@ This repository contains the python implementation for the paper  "Uncertainty E
 
 These datasets mentioned above can be downloaded from this [OneDrive link](https://connectpolyu-my.sharepoint.com/:f:/g/personal/22123553r_connect_polyu_hk/EgHVOLP0P8VMvVoZ5DNWYCkBCUWYkaa93QJGnw-Glx4Qlw?e=Zs8iOB).
 
-The data directory structure is shown as follows: 
+The data directory structure is shown as follows:
 
 ```
 .
@@ -36,8 +36,8 @@ The environment:
 - pytorch: 2.2.0
 - pytorch lightning: 2.2
 ### Configurations
-The realted configurations are all saved in `config/`. 
-- The `data_simu.yaml` is used to configure the data generation. 
+The realted configurations are all saved in `config/`.
+- The `data_simu.yaml` is used to configure the data generation.
 - The `tcrnn.yaml` is used to configure the dataloader, model training & test.
 
 You can change the value of these items based on your need.
@@ -73,8 +73,8 @@ If you find our work useful in your research, please consider citing:
 ```
 @article{pi2024uncertainty,
   author={Pi, Rendong and Yu, Xiang},
-  journal={IEEE Transactions on Instrumentation and Measurement}, 
-  title={Uncertainty Estimation for Sound Source Localization with Deep Learning}, 
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  title={Uncertainty Estimation for Sound Source Localization with Deep Learning},
   year={2024},
   volume={},
   number={},
