@@ -71,16 +71,17 @@ If you want to evaluate the model using the Single GPU, you can change the value
 ## 🎓 Citation
 If you find our work useful in your research, please consider citing:
 ```
-@article{pi2024uncertainty,
+@article{pi2025uncertainty,
   author={Pi, Rendong and Yu, Xiang},
-  journal={IEEE Transactions on Instrumentation and Measurement},
-  title={Uncertainty Estimation for Sound Source Localization with Deep Learning},
-  year={2024},
-  volume={},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Uncertainty Estimation for Sound Source Localization With Deep Learning}, 
+  year={2025},
+  volume={74},
   number={},
-  pages={1-1},
+  pages={1-12},
   doi={10.1109/TIM.2024.3522632}
 }
+
 
 @inproceedings{pi2024tssl,
   title={TSSL: Trusted Sound Source Localization},
