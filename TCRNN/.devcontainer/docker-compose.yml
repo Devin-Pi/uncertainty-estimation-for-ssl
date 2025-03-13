@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  uncertcrnn:
+    container_name: uncertcrnn
+    # user: vscode
+    runtime: nvidia
+    image: rdpi/dl # The name of the docker image
+    # ports:P
+    #   - '11602:6006'
+    volumes:
+      # Update this to wherever you want VS Code to mount the folder of your project
+      - ../..:/workspaces:cached # Do not change!
+      # folder_in_local_computer:folder_in_docker_container
+
+      # Forwards the local Docker socket to the container.
+      - /var/run/docker.sock:/var/run/docker-host.sock
+    shm_size: 32g
+    devices:
+      - /dev/nvidia0
+      - /dev/nvidia1
+      # - /dev/nvidia2
+      # - /dev/nvidia3
+      # Please add or delete according to the number of your GPU cards
+
+    command: sleep infinity

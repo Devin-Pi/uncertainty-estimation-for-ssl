@@ -1,0 +1,6 @@
+{
+	"name": "uncertcrnn", // You can freely choose a name.
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "uncertcrnn", // The name of the docker-compose service.
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+}
